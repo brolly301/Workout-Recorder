@@ -13,7 +13,7 @@ public class SQLConnection {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/workout", "root", "Brolly301!!!");
+            connection = DriverManager.getConnection("localhost", "root", "password");
         } catch (Exception e) {
             System.out.println(e);
         }
