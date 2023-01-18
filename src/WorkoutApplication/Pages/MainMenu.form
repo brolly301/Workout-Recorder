@@ -14,7 +14,7 @@
         </constraints>
         <properties>
           <font name="SansSerif" size="24" style="1"/>
-          <text value="Stronger"/>
+          <text value="Workout Recorder"/>
         </properties>
       </component>
       <component id="6d5b3" class="javax.swing.JButton" binding="loginButton" default-binding="true">

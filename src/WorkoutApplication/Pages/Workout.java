@@ -1,8 +1,7 @@
 package WorkoutApplication.Pages;
 
 import WorkoutApplication.MySQL.InsertIntoWorkoutTable;
-import com.toedter.calendar.JCalendar;
-import com.toedter.calendar.JDateChooser;
+
 
 
 import javax.swing.*;

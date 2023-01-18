@@ -2,14 +2,14 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="WorkoutApplication.Pages.Register">
   <grid id="27dc6" binding="registerPanel" layout-manager="GridBagLayout">
     <constraints>
-      <xy x="19" y="5" width="696" height="457"/>
+      <xy x="19" y="5" width="696" height="528"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
       <component id="4407f" class="javax.swing.JLabel">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="10" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="0" bottom="0" right="123" weightx="1.0" weighty="1.0"/>
         </constraints>
         <properties>
@@ -18,7 +18,7 @@
       </component>
       <component id="88fa5" class="javax.swing.JTextField" binding="nameField">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+          <grid row="3" column="0" row-span="1" col-span="10" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
           <gridbag top="2" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0" ipadx="150" ipady="3"/>
@@ -27,7 +27,7 @@
       </component>
       <component id="a95ab" class="javax.swing.JLabel" binding="register">
         <constraints>
-          <grid row="0" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="40" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
@@ -37,7 +37,7 @@
       </component>
       <component id="d8c34" class="javax.swing.JLabel">
         <constraints>
-          <grid row="6" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="15" bottom="2" right="84" weightx="1.0" weighty="1.0"/>
         </constraints>
         <properties>
@@ -46,7 +46,7 @@
       </component>
       <component id="895bc" class="javax.swing.JLabel">
         <constraints>
-          <grid row="8" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="8" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="0" bottom="2" right="71" weightx="1.0" weighty="1.0"/>
         </constraints>
         <properties>
@@ -55,7 +55,7 @@
       </component>
       <component id="54810" class="javax.swing.JLabel">
         <constraints>
-          <grid row="10" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="10" column="1" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="0" bottom="2" right="94" weightx="1.0" weighty="1.0"/>
         </constraints>
         <properties>
@@ -64,55 +64,46 @@
       </component>
       <hspacer id="55a9d">
         <constraints>
-          <grid row="17" column="2" row-span="1" col-span="5" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="17" column="2" row-span="1" col-span="8" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
       </hspacer>
       <hspacer id="8568">
         <constraints>
-          <grid row="18" column="2" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="18" column="2" row-span="1" col-span="6" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
       </hspacer>
       <hspacer id="373f0">
         <constraints>
-          <grid row="16" column="2" row-span="1" col-span="5" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="16" column="2" row-span="1" col-span="8" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
       </hspacer>
       <hspacer id="30d37">
         <constraints>
-          <grid row="15" column="2" row-span="1" col-span="5" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="15" column="2" row-span="1" col-span="8" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
       </hspacer>
       <hspacer id="720da">
         <constraints>
-          <grid row="14" column="2" row-span="1" col-span="5" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="13" column="2" row-span="1" col-span="8" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
       </hspacer>
       <component id="aae7" class="javax.swing.JTextField" binding="dateOfBirthField">
         <constraints>
-          <grid row="5" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+          <grid row="5" column="2" row-span="1" col-span="8" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
           <gridbag top="2" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0" ipadx="150" ipady="3"/>
         </constraints>
         <properties/>
       </component>
-      <component id="efa12" class="javax.swing.JButton" binding="exitButton" default-binding="true">
-        <constraints>
-          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-          <gridbag top="0" left="15" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
-        </constraints>
-        <properties>
-          <text value="Exit"/>
-        </properties>
-      </component>
       <component id="38696" class="javax.swing.JLabel">
         <constraints>
-          <grid row="4" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="2" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
           <gridbag top="0" left="105" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
         </constraints>
         <properties>
@@ -121,28 +112,28 @@
       </component>
       <hspacer id="8c84a">
         <constraints>
-          <grid row="12" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="12" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
       </hspacer>
       <hspacer id="7c8e5">
         <constraints>
-          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
       </hspacer>
       <component id="d01d3" class="javax.swing.JTextField" binding="emailField">
         <constraints>
-          <grid row="9" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+          <grid row="9" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
-          <gridbag top="2" left="88" bottom="0" right="80" weightx="1.0" weighty="1.0" ipadx="150" ipady="3"/>
+          <gridbag top="2" left="90" bottom="0" right="80" weightx="1.0" weighty="1.0" ipadx="150" ipady="3"/>
         </constraints>
         <properties/>
       </component>
       <component id="962c" class="javax.swing.JTextField" binding="phoneNumberField">
         <constraints>
-          <grid row="7" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+          <grid row="7" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
           <gridbag top="0" left="90" bottom="0" right="80" weightx="1.0" weighty="1.0" ipadx="150" ipady="3"/>
@@ -151,17 +142,28 @@
       </component>
       <component id="5f8d6" class="javax.swing.JPasswordField" binding="passwordField">
         <constraints>
-          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+          <grid row="11" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
-          <gridbag top="0" left="105" bottom="0" right="0" weightx="0.0" weighty="0.0" ipadx="150"/>
+          <gridbag top="0" left="104" bottom="0" right="0" weightx="0.0" weighty="0.0" ipadx="150" ipady="3"/>
         </constraints>
         <properties/>
       </component>
+      <component id="4d0c" class="javax.swing.JButton" binding="exitButton">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="105" bottom="0" right="0" weightx="0.0" weighty="0.0" ipadx="40" ipady="4"/>
+        </constraints>
+        <properties>
+          <horizontalTextPosition value="0"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
       <component id="158b5" class="javax.swing.JButton" binding="registerButton" default-binding="true">
         <constraints>
-          <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
-          <gridbag weightx="0.0" weighty="0.0"/>
+          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="3" bottom="0" right="30" weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
           <horizontalTextPosition value="0"/>

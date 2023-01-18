@@ -44,14 +44,6 @@ public class Home extends JFrame {
             }
         });
 
-        //Nothing yet
-        historyButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "Unavailable at the moment.");
-            }
-        });
-
         logoutButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
