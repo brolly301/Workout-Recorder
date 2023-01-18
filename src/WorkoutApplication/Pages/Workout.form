@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="WorkoutApplication.Pages.Workout">
+  <grid id="27dc6" binding="workoutPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="500" height="473"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="b527c" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="32"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="SansSerif" size="14"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="588ca" class="javax.swing.JButton" binding="homeButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="32"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="SansSerif" size="14"/>
+          <text value="Home"/>
+        </properties>
+      </component>
+      <component id="12b5f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="16"/>
+          <text value="Workout Name"/>
+        </properties>
+      </component>
+      <component id="c863d" class="javax.swing.JTextField" binding="workoutNameText">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0" ipadx="170"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="64fee" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="16"/>
+          <text value="Date"/>
+        </properties>
+      </component>
+      <component id="5c460" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="20"/>
+          <text value="Create Workout"/>
+        </properties>
+      </component>
+      <component id="12de9" class="javax.swing.JButton" binding="addWorkout">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="106" height="32"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="SansSerif" size="14"/>
+          <text value="Add Workout"/>
+        </properties>
+      </component>
+      <component id="bff83" class="javax.swing.JButton" binding="clear2">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <component id="29dd8" class="javax.swing.JButton" binding="clear1">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="SansSerif" size="12"/>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <component id="84ae2" class="javax.swing.JTextField" binding="dateText">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0" ipadx="170"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
